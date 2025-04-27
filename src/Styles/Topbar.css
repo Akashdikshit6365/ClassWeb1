@@ -1,0 +1,19 @@
+.topbar {
+  background-color: #1F2732;
+  color: #A3B1C2 ;
+  font-size: 14px;
+  padding: 8px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar a {
+  color: #A3B1C2;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.topbar a:hover {
+  color: #0D6EFD;
+}
