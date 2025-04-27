@@ -4,7 +4,7 @@
     --color-hero-text: #FFFFFF;
   }
   
-  /* Hero wrapper */
+
   .hero-section {
     background: var(--color-hero-bg);
     color: var(--color-hero-text);
@@ -13,14 +13,13 @@
     position: relative;
   }
   
-  /* Optional gradient variant */
+ 
   
   .hero-section {
     background-image: url('../assets/headerImg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* overlay if you want darker tint */
   position: relative;;
   }
   .hero-section::before {
@@ -30,10 +29,10 @@
     background: rgba(0,0,0,0.4);
   }
   .hero-content {
-    position: relative; /* so text sits above overlay */
+    position: relative; 
     z-index: 1;
   }
-  /* Headings */
+ 
   .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
@@ -45,7 +44,7 @@
     font-weight: 600;
   }
   
-  /* Search bar */
+
   .search-bar {
     display: flex;
     flex-wrap: wrap;
