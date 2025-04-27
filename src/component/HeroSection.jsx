@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/HeroSection.css';
+import '../Styles/HeroSection.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
